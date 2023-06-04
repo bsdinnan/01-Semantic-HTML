@@ -1,2 +1,6 @@
 # 01-Semantic-HTML
-Optimize a pre-existing webpage with semantic HTML.
+
+
+Refactoring pre-existing webpage with semantic HTML.
+
+[Live Website Link](https://bsdinnan.github.io/01-Semantic-HTML/)

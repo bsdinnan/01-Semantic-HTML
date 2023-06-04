@@ -3,18 +3,18 @@
     padding: 0;
     margin: 0;
 }
-
+/*adds background to body element*/
 body {
     background-color: #d9dcd6;
 }
-
+/*formatting of header element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*formatting for main header at top of page*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,7 +23,7 @@ h1 {
 #seo {
     color: #d9dcd6;
 }
-
+/*formatting for navigation links at top of page*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*formatting of main content*/
 p {
     font-size: 16px;
 }
@@ -75,7 +75,40 @@ p {
     margin-left: 20px;
 }
 
-#benefits {
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*formatting of side bar*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -111,43 +144,7 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
-
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-img {
-    max-height: 200px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*formatting of footwer*/
 footer {
     padding: 30px;
     clear: both;
@@ -158,4 +155,8 @@ footer {
 footer h2 {
     font-size: 20px;
     margin: 0px;
+}
+/*max height of all images in content (other than background of Hero section)*/
+img {
+    max-height: 200px;
 }
